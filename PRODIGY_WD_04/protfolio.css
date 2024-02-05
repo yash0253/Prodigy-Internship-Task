@@ -1,0 +1,246 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+body{
+    
+    color: rgb(5, 4, 7);}
+   
+header{
+    display:flex;
+    justify-content: space-between;
+    /* background-color: #054ada ; */
+    
+    background-image:url(img/back1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: -12px;
+    padding-top: -27px;
+    box-shadow:1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+   
+}
+header ul{
+    display:flex;
+    justify-content: center;
+    list-style:none;
+    padding-right: 45px;
+   
+    
+}
+.left {
+    padding-left: 40px;
+    padding: 15px;
+  }
+header ul li{
+    padding-left: 15px;
+
+}
+main{
+    display:flex;
+    justify-content: space-between;
+    height: 379px;
+    background-image: url(img/bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+ul li  {
+     text-decoration: none;
+     color:rgb(184, 223, 27);
+     font-size: 32px;
+}
+ul li :hover{
+    
+    color:rgb(197, 192, 192);
+    font-size: 15px;
+    text-decoration: underline;
+    
+}
+.mainright {
+    padding: 65px;
+    font-size: 33px;
+  }
+.mainleft{
+    width:341px;
+   
+}
+section{
+    height: 500px;
+    background-image: url(img/back.avif);
+    color: aliceblue;
+}
+#igk {
+    height: 358px;
+  width: 342px;
+    padding: -19px 8px 35px 54px;
+  }
+  #ig{
+    padding: -19px 8px 35px 54px;
+    padding: 4px;
+    background-color: #0c0c8d;
+
+  }
+  #image {
+    height: 45px;
+    width: 42px;
+    padding: 0px 4px 56px 8px;
+  }
+  .about {
+    display: flex;
+    justify-content: center;
+    padding: -18px 27px 43px 16px;
+    height: 61px;
+    font-size: 24px;
+    
+  }
+.section2{
+    display: flex;
+    font-size: small;
+}
+.section2 {
+    font-size: small;
+    padding-right: 45px;
+  }
+.photo {
+    height: 108%;
+    width: 344%;
+  }
+  #myimg {
+    height: 249px;
+    width: 195px;
+    padding-left: 94px;
+    padding-top: 0px;}
+button{
+    padding: 3px 13px 5px 12px;
+
+border: 0cap;
+radius: 4px;
+    }
+    .icon{
+        font-size: medium;
+        border-radius:  2px;
+        padding-top: 11px; 
+    }
+    .sk{
+        
+        display:flex;
+        justify-content: center;
+        justify-content: space-between ;
+        margin: 128px;
+        display:grid;
+        margin-top: 19px;
+        grid-template-columns: 100px 100px 100px 100px;
+    }
+    .item{
+        background-image: image(img/boy);
+    }
+    .skills{
+        display:flex;
+        flex-direction:column;
+      justify-content: center;
+      height: 513PX;
+
+    }
+    h1 {
+        justify-self: center;
+        display: flex;
+        justify-content: center;
+        
+        height: 57px;
+        padding-top: 7px
+      }
+  #ig{
+        height: 100px;
+        width:100px;
+        padding:0px;
+       
+    }
+    .institute{
+        display:grid;
+        grid-template-rows: 100px 100px;
+        justify-content: center;
+        width: 100%;
+        grid-gap: 12px;
+        height: 381px;
+        padding: 23px;px 0px 0px 0px;
+    }
+    #ed {
+  height: 91px;
+  width: 60px;
+  background-color: #f0fff0;
+}
+
+    #edu{
+        width: 600px;
+        background-color: #f0fff0;
+        display:flex;
+        color: rgb(33, 18, 194);
+        font-size: small;
+    }
+    #ed{
+        width: 131px;
+        padding: 5px 13px 0px 5px;
+    }
+    .education{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+       
+    }
+    .heading{
+       color:rgb(255, 255, 255);
+       font-size: 25px;
+    }
+    .pj{
+        height: 145px;
+        width: 307px;
+        background-image:url(img/pro.PNG);
+        background-size: cover;
+        display:flex;
+        justify-content:center;
+        align-items: end;
+        flex-direction: row;
+        color:black;
+       
+
+    }
+    .pro{
+        height: 400px;
+        width:100%;
+    }
+    .nam{
+        color:black;}
+    .pj1{
+        height: 45px;
+        justify-content: center;
+        text-align: center;
+        background-color: aqua;
+        width:100%;
+    }
+    #but{
+        background-color: transparent;
+        border: none;
+        font-size: 18px;
+        color:aliceblue;
+    }
+    #section3{
+        background-image: url(img/back.avif);
+        color:aliceblue;
+    }
+    #fa-solid  {
+        padding: 8px 9px 0px 0px;
+      }
+      #io{
+        color:aliceblue;
+      }
+      .pro{
+        background-image: url(img/back.avif);
+        color:aliceblue;
+      }

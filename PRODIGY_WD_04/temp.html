@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="temp.css">
+</head>
+<body>
+    <main>
+
+<div class="main">
+
+<h1>Temperature Conversion</h1>
+<div class="box">
+
+    <div class="deg">
+        Degrees
+        <input type="number" id="de" label="°C"  >
+        
+    </div>
+    <h1>=</h1>
+    <div class="far">
+        Fahrenheit
+        <input type="number" id="fa" label="°F"   >
+    </div>
+    
+<script>
+    let deg = document.getElementById("#de");
+    let fah = document.getElementById("#fa");
+
+    deg.addEventListener("input", function(){
+      let c = this.value;
+     
+      let f = (c * 9/5) + 32;
+      console.log(f)
+      fa.value = f;    
+    });
+   
+    fah.addEventListener("input",function(){
+        let e= this.value;
+        let k=(e - 32) × 5/9 ;
+        ce.value = k;
+    });
+    
+</script>
+
+
+</div>
+
+</div>
+    </main>
+</body>
+</html>
